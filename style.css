@@ -47,7 +47,9 @@ main {
   background-color: hsl(150, 100%, 66%);
   cursor: pointer;
 }
-
+.btn:hover {
+  box-shadow: hsl(150deg 100% 66%) 0px 0px 36px;
+}
 @media (max-width: 500px) {
   .container {
     max-width: 400px;
