@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Manrope, sans-serif;
+  font-size: 28px;
+  color: hsl(195, 11%, 65%);
+  background-color: hsl(218, 23%, 16%);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 15px;
+}
+.container {
+  padding: 20px 40px;
+  background-color: hsl(217, 19%, 38%);
+  color: #fff;
+  width: 600px;
+  text-align: center;
+  position: relative;
+  border-radius: 12px;
+}
+.advice-content {
+  width: 100%;
+  height: 200px;
+  /* background-color: aqua; */
+  border-bottom: 1px solid hsl(192, 9%, 57%);
+  padding: 40px 50;
+  margin-bottom: 50px;
+}
+.title {
+  color: hsl(150, 100%, 66%);
+  margin-bottom: 30px;
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  padding: 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 400px;
+  }
+}
